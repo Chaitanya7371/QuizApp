@@ -1,0 +1,56 @@
+.homepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+    height: 100vh;
+    color: aliceblue;
+    background: linear-gradient(135deg, #000000, #434343); 
+    font-family: 'Arial', sans-serif;
+    padding: 20px; 
+}
+
+.profile-name {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    gap: 10px;
+    color: aliceblue;
+    margin: -22rem 0 0 -80rem; 
+    position: relative; 
+}
+
+.profile-icon {
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+}
+
+.level-section {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.level-section button {
+    width: 30rem;
+    height: 5rem;
+    border-radius: 10px;
+    border: 1px solid transparent; 
+    color: black;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.level-section button:hover {
+    background-color: aliceblue;
+    color: black;
+    border: 1px solid #4f94d4; 
+    transform: translateY(-2px); 
+}
